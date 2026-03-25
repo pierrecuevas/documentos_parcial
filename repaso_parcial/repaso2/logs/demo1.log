@@ -1,0 +1,37 @@
+2026-03-25 15:58:03.963  INFO 29052 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 29052 (C:\Users\pierr\Documents\pre-parcial-jpa-pierrecuevas - copia\target\classes started by pierr in C:\Users\pierr\Documents\pre-parcial-jpa-pierrecuevas - copia)
+2026-03-25 15:58:03.971  INFO 29052 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-25 15:58:04.391  INFO 29052 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 15:58:04.441  INFO 29052 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 5 JPA repository interfaces.
+2026-03-25 15:58:04.776  INFO 29052 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8085 (http)
+2026-03-25 15:58:04.783  INFO 29052 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-25 15:58:04.783  INFO 29052 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-25 15:58:04.843  INFO 29052 --- [demo] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 833 ms
+2026-03-25 15:58:04.984  INFO 29052 --- [demo] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25 15:58:05.061  INFO 29052 --- [demo] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25 15:58:05.465  INFO 29052 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 15:58:05.493  INFO 29052 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-25 15:58:05.668  INFO 29052 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db-pre-parcial user=POSTGRES
+2026-03-25 15:58:05.671  INFO 29052 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-25 15:58:05.727  INFO 29052 --- [demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db-pre-parcial]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB-PRE-PARCIAL/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25 15:58:06.465  INFO 29052 --- [demo] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 15:58:06.522  INFO 29052 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 15:58:06.587  INFO 29052 --- [demo] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 15:58:06.773  WARN 29052 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-25 15:58:06.981  INFO 29052 --- [demo] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db-pre-parcial'
+2026-03-25 15:58:07.071  INFO 29052 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8085 (http) with context path '/pre-parcial'
+2026-03-25 15:58:07.075  INFO 29052 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.48 seconds (process running for 3.749)
+2026-03-25 16:02:14.817  INFO 29052 --- [demo] [http-nio-8085-exec-10] o.a.c.c.C.[.[localhost].[/pre-parcial]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-25 16:02:14.821  INFO 29052 --- [demo] [http-nio-8085-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-25 16:02:14.821  INFO 29052 --- [demo] [http-nio-8085-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-03-25 16:09:42.078  WARN 29052 --- [demo] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s129ms418µs).
